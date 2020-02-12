@@ -125,7 +125,7 @@ padding: 15pt;
 .download{
   color: white;
   background-color:transparent;
-  background: transparent;
+  /*background: transparent;*/
   border: 1px solid white;
   padding: 15px 30px;
   font-size: medium ;
