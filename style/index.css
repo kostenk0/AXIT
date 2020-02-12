@@ -185,6 +185,7 @@ align-items: center;
     border-bottom-color: #f6f6f6;
     width: 281px;
     height: 54px;
+    font-family: 'Open Sans', sans-serif;
 }
 .form-button{
     color: #ffffff;
