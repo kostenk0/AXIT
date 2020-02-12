@@ -106,14 +106,14 @@ height:400px;
   
 }
 .start-description{
-font-family: Raleway, AdobeInvisFont, MyriadPro-Regular;
+    font-family: 'Raleway', sans-serif;
 font-size: 15pt;
 color: rgba(255, 255, 255, 255);
 text-align: left;
 }
 .start-lorem{
-  
-font-family: ﻿Raleway-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+
+    font-family: 'Raleway', sans-serif;
 font-size: 10pt;
 color: rgba(255, 255, 255, 255);
 text-align: left;
@@ -130,16 +130,34 @@ padding: 15pt;
   padding: 15px 30px;
   font-size: medium ;
 }
-.align-content-start{
-  display:flex;
-  flex-direction: column ;
-  justify-content: space-between;
-  height: 22%;
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+width: 360px;
+    height:360px;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
-.all-form{
-  display: block;
-  width: 100pt;
-  height: 100pt;
+
+.form-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    background-color: #f5f5f5;
+    width:358px;
+    height:54px;
+    color: #333333;
+    text-align: center;
+
+}
+
+.orange-text{
+color: #ff8b38;
+
 }
 
 .registr{
@@ -147,6 +165,24 @@ padding: 15pt;
   display: flex;
 flex-direction: column;
 align-items: center;
+    width: 358px;
+    background-color: #ffffff;
+}
+.form-text{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom-color: #f6f6f6;
+    width: 281px;
+    height: 54px;
+}
+.form-button{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    height:54px;
+    width:360px;
+    background-color: #ff8b38;
 }
 
   @media only screen and (min-width: 768px) {
