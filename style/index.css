@@ -143,11 +143,11 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 360px;
+  width: 80%;
   height: 360px;
   margin-left: auto;
   margin-right: auto;
-
+  max-width: 360px;
 
 }
 
@@ -155,7 +155,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 15pt;
   background-color: #f5f5f5;
-  width: 300px;
+  width: 100%;
   height: 54px;
   color: #333333;
   text-align: center;
@@ -182,7 +182,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
+  width: 100%;
   background-color: #ffffff;
 }
 
@@ -191,7 +191,7 @@ p {
   border-left: none;
   border-right: none;
   border-bottom-color: #f6f6f6;
-  width: 281px;
+  width: 80%;
   height: 54px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -201,33 +201,144 @@ p {
   font-family: 'Open Sans', sans-serif;
   border: none;
   height: 54px;
-  width: 300px;
+  width: 100%;
   background-color: #ff8b38;
 }
 
 .start-footer {
   width: 100%;
-  height: 105px;
+  /* height: 105px; */
   background-color: #ffffff;
 }
 
 .media-text-h {
-  font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+  /* font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
   font-size: 20pt;
   color: rgba(51, 51, 51, 255);
-  text-align: center;
+  text-align: center; */
+  display: none;
 }
 
 .media-text-p {
-  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  /* font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
   font-size: 14pt;
   color: rgba(134, 135, 139, 255);
-  text-align: center;
+  text-align: center; */
+  display: none;
 }
 
 .media-text-logo {
   width: 100%;
   height: 54px;
+}
+
+.second-page {
+  width: 100%;
+  height: 595px;
+  background-color: #f5f5f5;
+}
+
+.tabs {
+  background: #fff;
+  position: relative;
+  left: 20%;
+  top: 3%;
+}
+
+.tabs>input,
+.tabs>span {
+  width: 20%;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+}
+
+.tabs>input {
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+.tabs>span {
+  background: #333333;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tabs>span i,
+.tabs>span {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.tabs>input:hover+span {
+  background: rgba(255, 255, 255, .1);
+}
+
+.tabs>input:checked+span {
+  background: #ff8b38;
+}
+
+.tabs>input:checked+span,
+.tabs>input:hover+span {
+  color: white;
+}
+
+#tab-1,
+#tab-1+span {
+  left: 0;
+  color: white;
+}
+
+#tab-2,
+#tab-2+span {
+  left: 20%;
+  color: white;
+}
+
+#tab-3,
+#tab-3+span {
+  left: 40%;
+  color: white;
+}
+
+.tab-content {
+  padding: 80px 20px 20px;
+  width: 100%;
+  min-height: 340px;
+}
+
+.tab-content section {
+  width: 100%;
+  display: none;
+}
+
+.tab-content section h1 {
+  margin-top: 15px;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#tab-1:checked~.tab-content #tab-item-1 {
+  display: block;
+}
+
+#tab-2:checked~.tab-content #tab-item-2 {
+  display: block;
+}
+
+#tab-3:checked~.tab-content #tab-item-3 {
+  display: block;
+}
+
+.second-page-img {
+  width: 100%;
 }
 
 @media only screen and (min-width: 769px) {
