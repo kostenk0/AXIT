@@ -209,6 +209,9 @@ p {
   width: 100%;
   /* height: 105px; */
   background-color: #ffffff;
+  max-width: 634px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .media-text-h {
@@ -238,7 +241,7 @@ p {
   background-color: #f5f5f5;
 }
 
-.tabs {
+/* .tabs {
   background: #fff;
   position: relative;
   left: 20%;
@@ -339,6 +342,157 @@ p {
 
 .second-page-img {
   width: 100%;
+} */
+
+.third-page {
+  width: 100%;
+  background-color: white;
+  height: 596px;
+}
+
+.forth-page {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.forth-page-h{
+  font-family: ﻿OpenSans-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 20pt;
+color: rgba(33, 33, 33, 255);
+text-align: center;
+}
+.forth-page-p{
+  font-family: ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 12pt;
+color: rgba(134, 135, 139, 255);
+text-align: left;
+margin-left: 5%;
+margin-right: 5%;
+}
+.forth-page-img{
+  max-width: 575px;
+  max-height: 375px;
+  width:60%;
+}
+
+.fifth-page {
+  background-color: white;
+  width: 100%;
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fifth-page{
+  font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 36pt;
+color: rgba(33, 33, 33, 255);
+text-align: center;
+}
+.fifth-page-p{
+  font-family: ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 14pt;
+color: rgba(134, 135, 139, 255);
+text-align: left;
+}
+.sixth-page {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 883px;
+}
+
+.seventh-page {
+  background-color: white;
+  width: 100%;
+  height: 591px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.seventh-page-h{
+  font-family: ﻿Raleway, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 36pt;
+  color: rgba(33, 33, 33, 255);
+  text-align: center;
+}
+.seventh-page-p{
+  font-family: ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 14pt;
+  color: rgba(134, 135, 139, 255);
+  text-align: left;
+}
+.eighth-page {
+  background-color: black;
+  background-image: url(../img/u25_state0@1X.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.eight-page-h {
+  font-family: Raleway, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 20pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+}
+
+.eight-page-p {
+  font-family: Raleway-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 16pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+}
+
+.eight-page-button {
+  color: white;
+  background-color: transparent;
+  background: transparent;
+  border: 1px solid white;
+  padding: 15px 30px;
+  font-size: medium;
+}
+
+.contact-page {
+  background-color: white;
+  width: 100%;
+  height: 612px;
+}
+
+.footer-page {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.footer-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30%;
+  width: 70%;
+  max-width: 317px;
+  max-height: 23px;
+}
+
+.footer-text {
+  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 12pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 769px) {
